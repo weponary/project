@@ -19,6 +19,7 @@ body {
   height: 80%;
   display: flex;
   border-radius: 10px;
+  position: relative;
 }
 .chat-aside-left {
   flex: 1;
@@ -248,11 +249,11 @@ button:hover {
 
 
 .chat-aside-footer--right{
-  width:100%;
+  
   background-color: lightsteelblue;
   bottom: 0;
   padding:15px;
-  padding-right: 300px;
+  
 }
 .chat-aside-footer--right>img{
   height: auto;
@@ -261,9 +262,12 @@ button:hover {
   float: left;
 }
 .chat-aside-footer--right>input{
+  
   outline: none;
   padding: 15px;
   border: 2px solid #ddd;
   background-color:white;
-  border-radius: 6px
+  border-radius: 6px;
+  width: 744px;
+  
 }
